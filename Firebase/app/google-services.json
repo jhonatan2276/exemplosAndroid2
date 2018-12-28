@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "128675928408",
+    "firebase_url": "https://teste-firebase-87cdf.firebaseio.com",
+    "project_id": "teste-firebase-87cdf",
+    "storage_bucket": "teste-firebase-87cdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128675928408:android:49119fe14199f837",
+        "android_client_info": {
+          "package_name": "br.edu.unidavi.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128675928408-3l9d6am2aravatnd5sp4q5t2eio00oqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.unidavi.firebase",
+            "certificate_hash": "e1986727c7dfc19bad1087505a71d9729acd9705"
+          }
+        },
+        {
+          "client_id": "128675928408-csol0scoe7c50obfha7rhlpto5nisdft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUm7XnKc7gBl_jn4DpJo8Cr1mDHGmuxVI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128675928408-csol0scoe7c50obfha7rhlpto5nisdft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mapas</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="buttonMapNormal">Normal</string>
+    <string name="buttonMapSatellite">Satélite</string>
+    <string name="buttonMapTerrain">Terreno</string>
+    <string name="buttonMarkerChecker">Cade o Marker?</string>
+</resources>

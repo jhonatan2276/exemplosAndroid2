@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#0f0"
+        app:layout_constraintBottom_toBottomOf="@+id/text2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto 1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto 2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto 3"
+        app:layout_constraintBottom_toBottomOf="@+id/text2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text1" />
+
+    <View
+        android:id="@+id/eixo"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12"
+        app:layout_constraintCircle="@+id/eixo"
+        app:layout_constraintCircleAngle="0"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_constraintCircle="@+id/eixo"
+        app:layout_constraintCircleAngle="30"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        app:layout_constraintCircle="@+id/eixo"
+        app:layout_constraintCircleAngle="60"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        app:layout_constraintCircle="@+id/eixo"
+        app:layout_constraintCircleAngle="90"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        app:layout_constraintCircle="@+id/eixo"
+        app:layout_constraintCircleAngle="120"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        app:layout_constraintCircle="@+id/eixo"
+        app:layout_constraintCircleAngle="150"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        app:layout_constraintCircle="@+id/eixo"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        app:layout_constraintCircle="@+id/eixo"
+        app:layout_constraintCircleAngle="210"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        app:layout_constraintCircle="@+id/eixo"
+        app:layout_constraintCircleAngle="240"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        app:layout_constraintCircle="@+id/eixo"
+        app:layout_constraintCircleAngle="270"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        app:layout_constraintCircle="@+id/eixo"
+        app:layout_constraintCircleAngle="300"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11"
+        app:layout_constraintCircle="@+id/eixo"
+        app:layout_constraintCircleAngle="330"
+        app:layout_constraintCircleRadius="100dp" />
+
+</android.support.constraint.ConstraintLayout>
